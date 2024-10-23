@@ -3,7 +3,7 @@ import React from "react";
 const AuthorContent = ({ authorName }: { authorName: string }) => {
   return (
     <>
-      <div className="main-container bg-sky-100 w-full rounded-2xl flex flex-col justify-start items-start pl-4 py-3">
+      <div className="main-container bg-sky-100 w-full rounded-2xl flex flex-col justify-start items-start lg:pl-4 py-3 px-4 lg:px-0">
         <h3 className="text-xl font-semibold underline font-mono">
           Author
         </h3>

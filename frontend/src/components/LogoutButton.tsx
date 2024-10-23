@@ -8,7 +8,7 @@ const LogoutButton = () => {
     console.log("eheh");
 
     localStorage.setItem("token", "");
-    navigate("/");
+    navigate("/signin");
   }
 
   return (

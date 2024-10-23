@@ -28,11 +28,11 @@ const Blog = () => {
           <Navbar />
         </div>
 
-        <div className="content-container w-10/12  grid grid-cols-12 pt-14">
-          <div className="left-container col-span-8">
+        <div className="content-container w-10/12 flex flex-col-reverse justify-start items-center gap-8 lg:grid lg:grid-cols-12 lg:items-start pt-10 lg:pt-14">
+          <div className="left-container lg:col-span-8">
             <BlogContent blog={blog} />
           </div>
-          <div className="right-container col-span-4 pl-10">
+          <div className="right-container lg:col-span-4 lg:pl-10">
             <AuthorContent authorName={blog.author.name} />
           </div>
         </div>

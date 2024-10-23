@@ -11,7 +11,7 @@ const BlogContent = ({ blog }: BlogContentProps) => {
   const formattedDate = format(new Date(rawDate), "MMM d, yyyy");
   return (
     <>
-      <div className="main-container flex flex-col">
+      <div className="main-container flex flex-col pb-8">
         <h2 className="text-3xl font-bold">{blog?.title}</h2>
         <span className="mt-2 text-slate-500 font-medium text-sm">
           Posted on {formattedDate} <span>✨</span>
